@@ -1,0 +1,376 @@
+/* CSS Document */
+
+/*
+.placeholder {
+	
+	background-color: #1e1e1e
+}*/
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0px;
+}
+
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 28px;
+	background-color: #f2b61c;
+	
+}
+.left-side {
+	display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+	margin-right:20px;
+	font-size: 0.9em;
+	text-transform: uppercase
+		
+}
+
+.nav-link-wrapper {
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.5s	
+}
+
+.nav-link-wrapper:hover {
+	border-bottom: 1px solid black;
+	}
+.nav-link-wrapper a:hover {
+	color: black
+}
+
+.titlesection {
+	/* display: grid;
+	grid-template-columns: 1fr; */
+	padding: 40px;
+	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1722867526.png");
+	background-position: center;
+	background-size: 150%;
+	background-color: #1e1e1e;
+	height: auto;
+	background-repeat: no-repeat;
+	
+}
+.mainlogo {
+	display: flex;
+	justify-content: center;
+	flex-shrink: 1;
+	
+}
+.mainlogocontainer {
+
+	background-image: url("transdrogzdjecia/nowelogopasek.png");
+	background-position: center;
+	background-size: 100%;
+	width: min-content;
+	
+}
+
+
+.titlesec {	
+	text-align: center;
+	font-size: 24px;
+	color: #f2b61c;
+	padding: 10px;
+}
+.titlesec2 {	
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding: 0px;
+	overflow-wrap: break-word;
+}
+
+.mainsection1 {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #f2b61c;
+	text-align: center;	
+
+}
+.head2 {
+	color: white;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-size: 30px;
+	width: 80%;
+	margin: auto;
+}
+.Jestesmytext {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	width: 80%;
+	margin: auto;
+	max-width: 1200px;
+}
+.mainsection2 {
+	background-color: #f2b61c;
+	padding: 1em;
+	
+}
+.box {
+	padding: 10px;
+	background-color: #1e1e1e;
+	text-align: center;	
+	color: #f2b61c;
+}
+.text1 {
+	font-size: 40px;
+	font-weight: bold;
+	padding: 10px;
+}
+.text2 {
+	font-size: large;
+	font-weight: bold  ;
+	padding: 10px;
+}
+.sec2wraper {
+	width: 80%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-auto-rows:minmax(100px, auto);
+	grid-auto-columns:minmax(auto, 100px);
+	grid-gap:1em;
+	/* justify-items:stretch;
+	align-items:stretch; */
+}
+.button1 {
+	height: 50px;
+	width: max-content;
+	background: #1e1e1e;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 0;
+	
+
+}
+.button1 a {
+	color: #f2b61c;
+	font-size: larger;
+	font-weight: bolder;
+	text-decoration: none ;
+	transition: color 0.5s	
+}
+.button1:hover {
+	height: 50px;
+	width: max-content;
+	background: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 0;
+		
+}
+.button1:hover a{
+	color: black;
+	transition: color 0.5s	
+}
+.button2 {
+	height: 50px;
+	width: max-content;
+	background: #f2b61c;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 0;
+}
+.button2 a{
+	color: white;
+	font-size: larger;
+	font-weight: bolder;
+	text-decoration: none;
+	transition: color 0.5s	
+}
+
+.button2:hover {
+	height: 50px;
+	width: max-content;
+	background: #1e1e1e;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 0;
+
+}
+.button2:hover a{
+	color: #f2b61c;
+	transition: color 0.5s	
+}
+.mainsection3{
+	padding: 1em;
+}
+
+.container3 {
+	padding: 1em;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+.zaufali {
+	text-align: center;
+	color: #f2b61c;
+	font-size: 3em;
+}
+.logos1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+.log1 {
+	background-image: url("transdrogzdjecia/logos/strabag-logo.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 200px;
+
+}
+.log2 {
+	background-image: url("transdrogzdjecia/logos/skanska.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 200px;
+}
+.log3 {
+	background-image: url("transdrogzdjecia/logos/Budimex.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 200px;
+}
+.log4 {
+	background-image: url("transdrogzdjecia/logos/budimex-dromex\ logo.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 200px;
+	padding: 10px;
+}
+.log5 {
+	background-image: url("transdrogzdjecia/logos/Drogmost.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 200px;
+	padding: 10px;
+}
+
+.mainsection4 {
+	background-color: #1e1e1e;
+	text-align: left;
+	
+}
+.sec4box1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	background-color: #f2b61c;
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 2em;
+	margin-top: 2em;
+
+}
+.sec4box1left {
+	max-width: 580px;
+	
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size: larger;
+	text-align: left;
+}
+.sec4box1right {
+	height: 300px;
+	width: 400px;
+	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1427250062.jpg");
+	margin: 0em;
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: 120%;
+	
+}
+
+.sec4box2right {
+	height: 300px;
+	width: 400px;
+	background-image: url("transdrogzdjecia/shutterstock/shutterstock_416179003.jpg");
+	margin: 0em;
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: 120%;
+	
+}
+
+.sec4box3right {
+	height: 300px;
+	width: 400px;
+	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1441376222.jpg");
+	margin: 0em;
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: 120%;
+	
+}
+.mainsection5 {
+	/* display: grid;
+	grid-template-columns: 1fr; */
+	padding: 0px;
+	background-image: url("transdrogzdjecia/shutterstock/industry1.jpg");
+	background-position: center;
+	background-size: 150%;
+	background-color: white;
+	height: auto;
+	background-repeat: no-repeat;
+	text-align: center;
+
+}
+.container5 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	font-size: larger;
+}
+
+footer {
+	background-color: #1e1e1e;
+	padding: 1em;
+}
+.footercontainermain{
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+	
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.footerlogo {
+	background-image: url("transdrogzdjecia/nowelogopasek.png");
+	background-position: center;
+	background-size: 100%;
+	height: 100px;
+	width: 400px;
+}
+ 
+.footercontainer1 {
+	/* height: 100px;
+	width: 400px; */
+	padding: 5px;
+	;
+	
+}
+.list dt{
+	color: white;
+	text-align: left;
+
+}
+.list dt a{
+	color: #f2b61c;
+
+}
