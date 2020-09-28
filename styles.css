@@ -16,19 +16,37 @@ body{
 	justify-content: space-between;
 	padding: 28px;
 	background-color: #f2b61c;
-	
+
 }
+
+.nav-wrapper_dark {
+	display: flex;
+	justify-content: space-between;
+	padding: 28px;
+	background-color: black;
+	background-image: url("transdrogzdjecia/finalne/industry2.jpg");
+	background-position: center;
+	background-size: 100%;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+
 .left-side {
 	display: flex;
 }
 
-.nav-wrapper > .left-side > div {
+.nav-wrapper> .left-side > div {
 	margin-right:20px;
 	font-size: 0.9em;
 	text-transform: uppercase
 		
 }
 
+.nav-wrapper_dark> .left-side > div {
+	margin-right:20px;
+	font-size: 0.9em;
+	text-transform: uppercase
+}
 .nav-link-wrapper {
 	height: 22px;
 	border-bottom: 1px solid transparent;
@@ -45,7 +63,33 @@ body{
 	border-bottom: 1px solid black;
 	}
 .nav-link-wrapper a:hover {
-	color: black
+
+	color: black; }
+	
+.nav-link-wrapper_dark {
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper_dark a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.5s	
+}
+
+.nav-link-wrapper_dark:hover {
+	border-bottom: 1px solid black;
+	}
+
+
+
+.nav-link-wrapper_dark a:hover {
+
+	color: #f2b61c; }
+
+.brand {
+ 
 }
 
 .titlesection {
@@ -407,27 +451,22 @@ footer {
 	height: 500px;
 	width: 500px;
 }
-	/* background-image: url("transdrogzdjecia/shutterstock/shutterstock_1427250062.jpg"); */
-	/* margin: 0em; */
-	/* background-repeat: no-repeat;
-	background-position: center ;
-	background-size: 120%; */
 
-
-/* .onassec4box2right {
-	height: 400px;
-	width: 400px;
-	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1427250062.jpg");
-	margin: 0em;
+.onasmainsection5 {
+	padding-top: 2em ;
+	background-image: url("transdrogzdjecia/shutterstock/industry1.jpg");
+	background-position: center;
+	background-size: 150%;
+	background-color: white;
+	height: auto;
 	background-repeat: no-repeat;
-	background-position: center ;
-	background-size: 120%; */
+	text-align: center;
 
-/* .onassec4box3right {
-	height: 400px;
-	width: 400px;
-	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1427250062.jpg");
-	margin: 0em;
-	background-repeat: no-repeat;
-	background-position: center ;
-	background-size: 120%; */
+}
+.onascontainer5 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+	font-size: 40px;
+	
+}
