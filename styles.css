@@ -63,16 +63,16 @@ body{
 .mainlogo {
 	display: flex;
 	justify-content: center;
-	flex-shrink: 1;
-	
 }
+
 .mainlogocontainer {
 
+	width: 700px;
+	height: 200px;
 	background-image: url("transdrogzdjecia/nowelogopasek.png");
 	background-position: center;
+	background-repeat: no-repeat;
 	background-size: 100%;
-	width: min-content;
-	
 }
 
 
@@ -374,3 +374,60 @@ footer {
 	color: #f2b61c;
 
 }
+.onasmainsection2 {
+	background-color: white;
+	padding: 1em;
+
+}
+
+.onassec4box1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	max-width: 1100px;
+	margin: auto;
+	margin-bottom: 2em;
+	margin-top: 2em;
+
+}
+
+.onascontainer3 {
+	color: black;
+}
+.onassec4box1left {
+	max-width: 480px;
+	color: black;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	font-size: larger;
+	text-align: left;
+}
+.onassec4box1right .onassec4box2right .onassec4box3right {
+	height: 500px;
+	width: 500px;
+}
+	/* background-image: url("transdrogzdjecia/shutterstock/shutterstock_1427250062.jpg"); */
+	/* margin: 0em; */
+	/* background-repeat: no-repeat;
+	background-position: center ;
+	background-size: 120%; */
+
+
+/* .onassec4box2right {
+	height: 400px;
+	width: 400px;
+	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1427250062.jpg");
+	margin: 0em;
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: 120%; */
+
+/* .onassec4box3right {
+	height: 400px;
+	width: 400px;
+	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1427250062.jpg");
+	margin: 0em;
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: 120%; */
