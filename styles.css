@@ -16,6 +16,7 @@ body{
 	justify-content: space-between;
 	padding: 28px;
 	background-color: #f2b61c;
+	flex-wrap: wrap;
 
 }
 
@@ -33,70 +34,75 @@ body{
 
 .left-side {
 	display: flex;
+	flex-wrap: wrap;
+	
 }
+
+.brand {
+	font-size: larger;
+	font-weight: bold;
+	margin-top: 1em;
+	text-shadow: 2px 4px 6px #b67c00;
+}
+
 
 .nav-wrapper> .left-side > div {
 	margin-right:20px;
-	font-size: 0.9em;
+	margin-top: 1em;
+	font-size: 1.1em;
 	text-transform: uppercase
 		
 }
 
 .nav-wrapper_dark> .left-side > div {
 	margin-right:20px;
-	font-size: 0.9em;
-	text-transform: uppercase
+	font-size: 1.1em;
+	text-transform: uppercase;
+	margin-top: 1em;
 }
 .nav-link-wrapper {
 	height: 22px;
-	border-bottom: 1px solid transparent;
-	transition: border-bottom 0.5s;
+
 }
 
 .nav-link-wrapper a {
 	color: white;
 	text-decoration: none;
-	transition: color 0.5s	
+	transition: all 0.5s;
+	text-shadow: 0 4px 8px #815d00;
 }
 
-.nav-link-wrapper:hover {
-	border-bottom: 1px solid black;
-	}
 .nav-link-wrapper a:hover {
-
+	background-color: #ffb806;
+	box-shadow: 0 7px 14px black;
+	text-shadow: 0 4px 8px #ffdb80;
+	padding: 1em;
 	color: black; }
 	
 .nav-link-wrapper_dark {
 	height: 22px;
-	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
 }
 
 .nav-link-wrapper_dark a {
 	color: white;
 	text-decoration: none;
-	transition: color 0.5s	
+	transition: all 0.5s;
+	text-shadow: 2px 4px 8px black;
 }
-
-.nav-link-wrapper_dark:hover {
-	border-bottom: 1px solid black;
-	}
-
-
 
 .nav-link-wrapper_dark a:hover {
-
-	color: #f2b61c; }
-
-.brand {
- 
-}
+	background-color: #f2b61c;
+	color: black; 
+	box-shadow: 0 7px 14px white;
+	text-shadow: 0 4px 8px #ffdb80;
+	padding: 1em;
+	transition: all 0.5s;
+	; }
 
 .titlesection {
-	/* display: grid;
-	grid-template-columns: 1fr; */
 	padding: 40px;
-	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1722867526.png");
+	background-image: url("transdrogzdjecia/Finalne/titleback1.jpg");
 	background-position: center;
 	background-size: 150%;
 	background-color: #1e1e1e;
@@ -110,15 +116,14 @@ body{
 }
 
 .mainlogocontainer {
-
-	width: 700px;
-	height: 200px;
+	width: 710px;
+	height: 190px;
 	background-image: url("transdrogzdjecia/nowelogopasek.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
-}
 
+}
 
 .titlesec {	
 	text-align: center;
@@ -251,11 +256,13 @@ body{
 }
 .mainsection3{
 	padding: 1em;
+	background-color: white;
+	margin: auto;
 }
 
 .container3 {
 	padding: 1em;
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	text-align: center;
 	color: white;
@@ -269,6 +276,7 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:center;
+	align-items: center;
 }
 .log1 {
 	background-image: url("transdrogzdjecia/logos/strabag-logo.jpg");
@@ -282,6 +290,7 @@ body{
 	background-repeat: no-repeat;
 	width: 400px;
 	height: 200px;
+	margin-top: 10px;
 }
 .log3 {
 	background-image: url("transdrogzdjecia/logos/Budimex.jpg");
@@ -329,46 +338,8 @@ body{
 	font-size: larger;
 	text-align: left;
 }
-
-.osec4box1right .sec4box2right .sec4box3right {
-
 	
-}
 
-
-/* .sec4box1right {
-	height: 300px;
-	width: 400px;
-	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1427250062.jpg");
-	margin: 0em;
-	background-repeat: no-repeat;
-	background-position: center ;
-	background-size: 120%;
-	
-	
-}
-
-.sec4box2right {
-	height: 300px;
-	width: 400px;
-	background-image: url("transdrogzdjecia/shutterstock/shutterstock_416179003.jpg");
-	margin: 0em;
-	background-repeat: no-repeat;
-	background-position: center ;
-	background-size: 120%;
-	
-}
-
-.sec4box3right {
-	height: 300px;
-	width: 400px;
-	background-image: url("transdrogzdjecia/shutterstock/shutterstock_1441376222.jpg");
-	margin: 0em;
-	background-repeat: no-repeat;
-	background-position: center ;
-	background-size: 120%; */
-	
-}
 .mainsection5 {
 	/* display: grid;
 	grid-template-columns: 1fr; */
@@ -387,6 +358,7 @@ body{
 	padding-bottom: 50px;
 	color: white;
 	font-size: larger;
+	text-shadow: 0 7px 7px black;
 }
 
 footer {
@@ -476,5 +448,150 @@ footer {
 	padding-bottom: 100px;
 	color: white;
 	font-size: 40px;
+	text-shadow: 0 10px 10px black;
 	
+}
+
+.ofertacontainer {
+	max-width: 1200px;
+	margin: auto;
+}
+.ofertabox1 {
+	display: flex;
+	padding: 1em;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.oferatext1 {
+	max-width: 700px;
+	padding: 1em;
+}
+.ofertacontainer2 {
+	padding: 2em;
+	max-width: 1200px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.ofertabox2 {
+	max-width: 300px;
+}	
+.photoboxcontainer {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	padding: 2em;
+	}
+.photobox {
+	padding: 5px;
+	overflow: hidden;
+}
+.photobox img {
+	transition: transform .5s ease;
+}
+
+.photobox:hover img {
+	transform: scale(1.15);
+}
+.ofertatextcontainer {
+	max-width: 700px;
+	margin: auto;
+	font-size: larger;
+}
+
+.ofertatextcontainer p {
+	text-align: justify;
+}
+
+.ralizacjeboxcontainer {
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 1em;
+}
+
+.realizacjebox {
+	height: 440px;
+	width: 360px;
+	box-shadow: 0 7px 14px black;
+	margin: 1em;
+}
+
+.realizacjelogobox1{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/2880px-A1-PL.svg.png");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	}
+.realizacjelogobox2{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/2880px-A2-PL.svg.png");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	}
+.realizacjelogobox3{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/A4-PL.svg.png");
+	background-position: center;
+	background-size: 140%;
+	background-repeat: no-repeat;
+	}
+
+.realizacjelogobox4{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/2880px-S3-PL.svg.png");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	}
+.realizacjelogobox5{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/2880px-S5-PL.svg.png");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	}
+.realizacjelogobox6{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/S6-PL.svg.png");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	}
+.realizacjelogobox7{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/2880px-S8-PL.svg.png");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	}
+.realizacjelogobox8{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/Obwodnica.png");
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	}
+.realizacjelogobox9{
+	height: 240px;
+	background-image: url("transdrogzdjecia/Ikony/2880px-A1-PL.svg.png");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+
+	}
+.realizacjetext {
+	padding: 10px;
+}
+.relizacjetextbig {
+	padding: 30px;
+	max-width: 640px;
+	font-size: larger;
 }
