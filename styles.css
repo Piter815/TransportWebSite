@@ -626,3 +626,18 @@ footer {
 	text-align: center;
 }
 
+.danecotainer {
+	width: 80%;
+	margin: auto;
+}
+
+.danecotainer p {
+	max-width: 400px;
+}
+#map {
+	height: 500px;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 2em;
+	margin-bottom: 100px ;
+  }
