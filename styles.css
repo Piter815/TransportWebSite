@@ -5,9 +5,13 @@
 	
 	background-color: #1e1e1e
 }*/
+
 body{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+	font-family: 'Roboto', sans-serif;
 	margin: 0px;
+	width: 100%;
+
 }
 
 
@@ -102,7 +106,7 @@ body{
 
 .titlesection {
 	padding: 40px;
-	background-image: url("transdrogzdjecia/Finalne/titleback1.jpg");
+	background-image: url("transdrogzdjecia/finalne/titleback1.jpg");
 	background-position: center;
 	background-size: 150%;
 	background-color: #1e1e1e;
@@ -127,13 +131,13 @@ body{
 
 .titlesec {	
 	text-align: center;
-	font-size: 24px;
+	font-size: 1.5em;
 	color: #f2b61c;
 	padding: 10px;
 }
 .titlesec2 {	
 	text-align: center;
-	font-size: 24px;
+	font-size: 1.5em;
 	color: white;
 	padding: 0px;
 	overflow-wrap: break-word;
@@ -150,14 +154,14 @@ body{
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
-	font-size: 30px;
+	font-size: 1.5em;
 	width: 80%;
 	margin: auto;
 }
 .Jestesmytext {
 	text-align: center;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 1.3em;
 	width: 80%;
 	margin: auto;
 	max-width: 1200px;
@@ -174,27 +178,37 @@ body{
 	color: #f2b61c;
 }
 .text1 {
-	font-size: 40px;
+	font-size: 4em;
 	font-weight: bold;
 	padding: 10px;
 }
 .text2 {
-	font-size: large;
+	font-size: 1.2em;
 	font-weight: bold  ;
-	padding: 10px;
+
 }
+
+@media (min-width: 800px) {
 .sec2wraper {
-	width: 80%;
-	max-width: 1200px;
-	margin: auto;
-	display: grid;
-	grid-template-columns:1fr 1fr 1fr;
-	grid-auto-rows:minmax(100px, auto);
-	grid-auto-columns:minmax(auto, 100px);
-	grid-gap:1em;
-	/* justify-items:stretch;
-	align-items:stretch; */
-}
+		width: 80%;
+		max-width: 900px;
+		margin: auto;
+		display: grid;
+		grid-template-columns:1fr 1fr 1fr;
+		grid-gap:1em;
+
+}}
+@media (max-width: 800px) {
+.sec2wraper {
+		width: 80%;
+		max-width: 1000px;
+		margin: auto;
+		display: grid;
+		grid-template-columns:1fr 1fr;
+		grid-gap:1em;
+
+	}}
+
 .button1 {
 	height: 50px;
 	width: max-content;
@@ -207,7 +221,7 @@ body{
 }
 .button1 a {
 	color: #f2b61c;
-	font-size: larger;
+	font-size: 1.8em;
 	font-weight: bolder;
 	text-decoration: none ;
 	transition: color 0.5s	
@@ -235,7 +249,7 @@ body{
 }
 .button2 a{
 	color: white;
-	font-size: larger;
+	font-size: 1.8em;
 	font-weight: bolder;
 	text-decoration: none;
 	transition: color 0.5s	
@@ -270,7 +284,7 @@ body{
 .zaufali {
 	text-align: center;
 	color: #f2b61c;
-	font-size: 3em;
+	font-size: 4em;
 }
 .logos1 {
 	display: flex;
@@ -318,24 +332,50 @@ body{
 	text-align: left;
 	
 }
-.sec4box1 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content:center;
-	background-color: #f2b61c;
-	max-width: 1000px;
-	margin: auto;
-	margin-top: 2em;
-	padding: 0.5em;
+@media (min-width: 1060px) {
+	.sec4box1 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:center;
+		background-color: #f2b61c;
+		max-width: 1000px;
+		margin: auto;
+		margin-top: 2em;
+		padding: 0.5em;
+		font-size: 1.4em
+}}
 
+@media (max-width: 1060px) {
+	.sec4box1 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:center;
+		background-color: #f2b61c;
+		max-width: 550px;
+		margin: auto;
+		margin-top: 2em;
+		padding: 0.5em;
+		font-size: 1.1em
+	}}
 
-}
+/* @media only screen and (max-width: 1000px) {
+	.sec4box1 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:center;
+		background-color: #f2b61c;
+		max-width: 450px;
+		margin: auto;
+		margin-top: 2em;
+		padding: 0.5em;
+	}} */
+
 .sec4box1left {
 	max-width: 580px;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-bottom: 10x;
-	font-size: larger;
+	;
 	text-align: left;
 }
 	
@@ -357,7 +397,7 @@ body{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: white;
-	font-size: larger;
+	font-size: 2em;
 	text-shadow: 0 7px 7px black;
 }
 
@@ -392,6 +432,7 @@ footer {
 .list dt{
 	color: white;
 	text-align: left;
+	font-size: 1.3em;
 
 }
 .list dt a{
@@ -418,19 +459,40 @@ footer {
 .onascontainer3 {
 	color: black;
 }
+
+@media (min-width: 1090px) {
 .onassec4box1left {
 	max-width: 480px;
 	color: black;
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 10px;
-	font-size: larger;
+	font-size: 1.3em;
 	text-align: left;
 }
+
+
 .onassec4box1right .onassec4box2right .onassec4box3right {
 	height: 500px;
 	width: 500px;
+}}
+
+@media (max-width: 1090px) {
+.onassec4box1left {
+	max-width: 600px;
+	color: black;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	font-size: 1.3em;
+	text-align: left;
 }
+
+
+.onassec4box1right .onassec4box2right .onassec4box3right {
+	height: 600px;
+	width: 600px;
+}}
 
 .onasmainsection5 {
 	padding-top: 2em ;
@@ -447,7 +509,7 @@ footer {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	color: white;
-	font-size: 40px;
+	font-size: 3em;
 	text-shadow: 0 10px 10px black;
 	
 }
@@ -466,6 +528,7 @@ footer {
 .oferatext1 {
 	max-width: 700px;
 	padding: 1em;
+	font-size: 1.2em;
 }
 .ofertacontainer2 {
 	padding: 2em;
@@ -499,7 +562,7 @@ footer {
 .ofertatextcontainer {
 	max-width: 700px;
 	margin: auto;
-	font-size: larger;
+	font-size: 1.3em;
 }
 
 .ofertatextcontainer p {
@@ -524,21 +587,21 @@ footer {
 
 .realizacjelogobox1{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/2880px-A1-PL.svg.png");
+	background-image: url("transdrogzdjecia/ikony/2880px-A1-PL.svg.png");
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
 	}
 .realizacjelogobox2{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/2880px-A2-PL.svg.png");
+	background-image: url("transdrogzdjecia/ikony/2880px-A2-PL.svg.png");
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
 	}
 .realizacjelogobox3{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/A4-PL.svg.png");
+	background-image: url("transdrogzdjecia/ikony/A4-PL.svg.png");
 	background-position: center;
 	background-size: 140%;
 	background-repeat: no-repeat;
@@ -546,42 +609,42 @@ footer {
 
 .realizacjelogobox4{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/2880px-S3-PL.svg.png");
+	background-image: url("transdrogzdjecia/ikony/2880px-S3-PL.svg.png");
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
 	}
 .realizacjelogobox5{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/2880px-S5-PL.svg.png");
+	background-image: url("transdrogzdjecia/ikony/2880px-S5-PL.svg.png");
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
 	}
 .realizacjelogobox6{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/S6-PL.svg.png");
+	background-image: url("transdrogzdjecia/ikony/S6-PL.svg.png");
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
 	}
 .realizacjelogobox7{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/2880px-S8-PL.svg.png");
+	background-image: url("transdrogzdjecia/ikony/2880px-S8-PL.svg.png");
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
 	}
 .realizacjelogobox8{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/Obwodnica.png");
+	background-image: url("transdrogzdjecia/ikony/Obwodnica.png");
 	background-position: center;
 	background-size: 90%;
 	background-repeat: no-repeat;
 	}
 .realizacjelogobox9{
 	height: 240px;
-	background-image: url("transdrogzdjecia/Ikony/2880px-A1-PL.svg.png");
+	background-image: url("transdrogzdjecia/finalne/constr500.png");
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
@@ -589,11 +652,12 @@ footer {
 	}
 .realizacjetext {
 	padding: 10px;
+	font-size: 1.1em;
 }
 .relizacjetextbig {
 	padding: 30px;
 	max-width: 640px;
-	font-size: larger;
+	font-size: 1.2em;
 }
 
 .referencjeboxcontainer {
@@ -619,20 +683,22 @@ footer {
 }
 
 .referencjebox p {
-	padding: 1em;
-	margin-left: 5pxem;
-	margin-right: 5px;
+	padding: 0.3em;
+	/* margin-left: 5px;
+	margin-right: 5px; */
 	font-style: italic;
 	text-align: center;
+	font-size: 1.2em;
 }
 
 .danecotainer {
 	width: 80%;
 	margin: auto;
+	font-size: 1.2em;
 }
 
 .danecotainer p {
-	max-width: 400px;
+	max-width: 600px;
 }
 #map {
 	height: 500px;
